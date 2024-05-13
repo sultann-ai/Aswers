@@ -7,9 +7,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(220, 24%, 12%);
-  --black-color-light: hsl(220, 24%, 15%);
-  --black-color-lighten: hsl(220, 20%, 18%);
+  --black-color: black;
+  --black-color-light: black;
+  --black-color-lighten: black;
   --white-color: #fff;
   --body-color:#fff;
 
@@ -236,9 +236,9 @@ a {
 .dropdown__sublink {
   background-color: var(--black-color-lighten);
 }
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+
 @media screen and (max-width: 340px) {
   .container {
     margin-inline: 1rem;
